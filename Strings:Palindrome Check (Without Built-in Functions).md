@@ -13,8 +13,21 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 
-Add code here
+```python
+
+org="google"
+dup=org[::-1]
+if(dup==org):
+    print("string is a plaindrome")
+else:
+    print("string is not a plaindrome")
+
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/5675cf7c-9422-42e6-b5f5-926b9f663904)
+
 ## Result
+
+Thus implemented the python program to check whether the string "google" is a plaindrome or not, without using built in palindrome checking functions.
